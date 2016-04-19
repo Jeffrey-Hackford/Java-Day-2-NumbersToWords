@@ -1,11 +1,11 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class numbersToWordsTest {
+public class NumbersToWordsTest {
 
   @Test
   public void inputSingleInterger_returnWord() {
-    numbersToWords testWord = new numbersToWords();
+    NumbersToWords testWord = new NumbersToWords();
     String expected = "one";
     assertEquals(expected, testWord.translateNumber(1));
   }

@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "Numbers-To-Words"
 version = '1.0'
-mainClassName = "numbersToWords"
+mainClassName = "NumbersToWords"
 
 repositories {
   mavenCentral()
